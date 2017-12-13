@@ -63,6 +63,7 @@ def estimate(points: Array[Double]): Array[Double] = {
   }
 }
 ```
+
 &emsp;&emsp;上述代码的`seqOp`函数中调用了`normPdf`，这个函数用于计算核函数为高斯分布的概率密度函数。参见上面的公式**(1)**。公式**(1)**的实现如下面代码。
 
 ```scala
