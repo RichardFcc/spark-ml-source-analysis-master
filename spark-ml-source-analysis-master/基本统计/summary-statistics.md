@@ -92,6 +92,7 @@ def computeColumnSummaryStatistics(): MultivariateStatisticalSummary = {
 
 &emsp;&emsp;`merge`方法相对比较简单，它只是对两个`MultivariateOnlineSummarizer`对象的指标作合并操作。
 
+
 ```scala
  def merge(other: MultivariateOnlineSummarizer): this.type = {
     if (this.weightSum != 0.0 && other.weightSum != 0.0) {
