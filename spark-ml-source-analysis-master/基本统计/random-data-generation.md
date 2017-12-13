@@ -18,6 +18,7 @@ val v = u.map(x => 1.0 + 2.0 * x)
 &emsp;&emsp;`normalRDD`的实现如下面代码所示。
 
 ```scala
+
 def normalRDD(
       sc: SparkContext,
       size: Long,
