@@ -78,7 +78,6 @@ val streamingTest = new StreamingTest()
 val out = streamingTest.registerStream(data)
 out.print()
 ```
-
 # 参考文献
 
 【1】[显著性检验](http://wiki.mbalib.com/wiki/Significance_Testing)
