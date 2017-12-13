@@ -244,6 +244,7 @@ def predict(testData: Double): Double = {
     }
   }
 ```
+
 &emsp;&emsp;当测试数据精确匹配一个边界，那么返回相应的特征。如果测试数据比所有边界都大或者小，那么分别返回第一个和最后一个特征。当测试数据位于两个边界之间，使用`linearInterpolation`方法计算特征。
 这个方法是线性内插法。
 
