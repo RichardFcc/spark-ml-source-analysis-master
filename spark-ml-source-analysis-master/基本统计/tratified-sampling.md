@@ -21,6 +21,7 @@ val approxSample = data.sampleByKey(withReplacement = false, fractions)
 val exactSample = data.sampleByKeyExact(withReplacement = false, fractions)
 ```
 
+
 &emsp;&emsp;当`withReplacement`为`true`时，采用`PoissonSampler`取样器，当`withReplacement`为`false`使，采用`BernoulliSampler`取样器。
 
 ```scala
