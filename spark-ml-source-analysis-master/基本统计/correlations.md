@@ -164,6 +164,7 @@ override def computeCorrelationMatrix(X: RDD[Vector]): Matrix = {
 
 &emsp;&emsp;其中`rank_start`表示列索引相同且值相同的数据对在分区中第一次出现时的索引位置，`n`表示列索引相同且值相同的数据对出现的次数。
 
+
 ## 3 参考文献
 
 【1】[Pearson product-moment correlation coefficient](https://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient)
